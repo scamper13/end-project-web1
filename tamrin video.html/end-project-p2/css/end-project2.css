@@ -1,0 +1,1081 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #084A79;
+    --button-hover: #2074ac;
+    --primary-color2: #1a6fac;
+}
+
+.top-of-page {
+    width: 100%;
+    height: 30px;
+    background-color: var(--primary-color);
+}
+
+.text1 {
+    text-align: right;
+    padding-right: 20%;
+    padding-top: 0.5%;
+    color: white;
+}
+
+.top-of-page2 {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+    border-bottom: 1px solid black;
+}
+
+.search {
+    position: relative;
+    left: 19rem;
+    bottom: 3.5rem;
+    cursor: pointer;
+    color: rgb(201, 201, 201);
+    transition: 0.6s;
+
+}
+
+.search:hover {
+    color: black;
+    transition: 0.6s;
+}
+
+.icon-box1 {
+    display: inline-block;
+    position: relative;
+    bottom: 90%;
+    left: 83%;
+    padding: 0 10px;
+    height: 100%;
+    color: white;
+    transition: 0.3s;
+}
+
+.icon-box2 {
+    display: inline-block;
+    position: relative;
+    bottom: 90%;
+    left: 83%;
+    padding: 0 10px;
+    height: 100%;
+    color: white;
+    transition: 0.3s;
+}
+
+.icon-box3 {
+    display: inline-block;
+    position: relative;
+    bottom: 90%;
+    left: 83%;
+    padding: 0 10px;
+    height: 100%;
+    color: white;
+    transition: 0.3s;
+}
+
+.icon-top-page1 {
+    padding-top: 50%;
+}
+
+.icon-top-page2 {
+    padding-top: 50%;
+}
+
+.icon-top-page3 {
+    padding-top: 50%;
+}
+
+.line1 {
+    width: 1px;
+    height: 90%;
+    background-color: white;
+    position: relative;
+    left: 85.12%;
+    bottom: 185%
+}
+
+.line2 {
+    width: 1px;
+    height: 90%;
+    background-color: white;
+    position: relative;
+    left: 87.7%;
+    bottom: 275%
+}
+
+.icon-box1:hover {
+    background-color: lightcoral;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.icon-box2:hover {
+    background-color: lightgreen;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.icon-box3:hover {
+    background-color: lightblue;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.logo {
+    width: 30%;
+}
+
+.a-top-of-page {
+    position: relative;
+    left: 17rem;
+    bottom: 4rem;
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+}
+
+.text3 {
+
+    padding: 4.8rem 10px;
+    transition: 0.1s;
+}
+
+.text3:hover {
+    border-bottom: 4px solid var(--primary-color);
+    color: var(--primary-color);
+    transition: 0.1s;
+}
+
+.text4 {
+    color: var(--primary-color);
+    border-bottom: 4px solid var(--primary-color);
+    padding: 4.8rem 10px;
+    transition: 0.1s;
+}
+
+.text4:hover {
+    border-bottom: 4px solid var(--primary-color);
+    color: var(--primary-color);
+    transition: 0.1s;
+}
+
+.text5 {
+
+    padding: 4.8rem 10px;
+    transition: 0.1s;
+}
+
+.text5:hover {
+    border-bottom: 4px solid var(--primary-color);
+    color: var(--primary-color);
+    transition: 0.1s;
+}
+
+.text6 {
+
+    padding: 4.8rem 10px;
+    transition: 0.1s;
+}
+
+.text6:hover {
+    border-bottom: 4px solid var(--primary-color);
+    color: var(--primary-color);
+    transition: 0.1s;
+}
+
+.text7 {
+
+    padding: 4.8rem 10px;
+    transition: 0.1s;
+}
+
+.text7:hover {
+    border-bottom: 4px solid var(--primary-color);
+    color: var(--primary-color);
+    transition: 0.1s;
+}
+
+.button1 {
+    width: 10rem;
+    height: 3.5rem;
+    border-radius: 70px;
+    cursor: pointer;
+    position: relative;
+    left: 18rem;
+    bottom: 4rem;
+    transition: 0.4s;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.text2 {
+    background-image: var("");
+}
+
+.picture1 {
+    width: 100%;
+    height: 300px;
+    background-image: url("/tamrin video.html/end-project-p2/image/hero-blurred.jpg");
+}
+
+.text2 {
+    background-color: #084a7981;
+    height: 300px;
+    color: white;
+    text-align: center;
+    padding-top: 8%;
+    font-size: 30px;
+}
+
+.button1:hover {
+    background-color: var(--button-hover);
+    color: white;
+    font-size: 17px;
+}
+
+
+.text-box1 {
+    width: 100%;
+    height: 450px;
+
+}
+
+.text8 {
+    width: 40%;
+    position: relative;
+    left: 10%;
+    top: 18%;
+    padding: 2%;
+    font-size: 30px;
+}
+
+.text9 {
+    width: 40%;
+    position: relative;
+    left: 10%;
+    top: 18%;
+    padding: 2%;
+    font-size: 20px;
+}
+
+.text10 {
+    width: 40%;
+    position: relative;
+    left: 10%;
+    top: 18%;
+    padding: 2%;
+    font-size: 20px;
+}
+
+.text11 {
+    width: 40%;
+    position: relative;
+    left: 50%;
+    bottom: 48%;
+    padding: 2%;
+    font-size: 30px;
+}
+
+.text12 {
+    width: 40%;
+    position: relative;
+    left: 50%;
+    bottom: 48%;
+    padding: 2%;
+    font-size: 20px;
+
+}
+
+.text13 {
+    width: 40%;
+    position: relative;
+    left: 50%;
+    bottom: 48%;
+    padding: 2%;
+    font-size: 20px;
+}
+
+.text14,
+.text15 {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.fa-cloud {
+    margin-left: 47.5%;
+    margin-bottom: 6%;
+}
+
+.line-icon1 {
+    background-color: black;
+    width: 80px;
+    height: 1px;
+    position: relative;
+    left: 41%;
+    top: -100px;
+
+}
+
+.line-icon2 {
+    background-color: black;
+    width: 80px;
+    height: 1px;
+    position: relative;
+    left: 51.5%;
+    top: -100px;
+
+}
+
+.box1 {
+    width: 35%;
+    height: 900px;
+    background-color: var(--primary-color);
+    margin-left: 5%;
+    border-radius: 30px;
+
+}
+
+.box2 {
+    width: 50%;
+    height: 395px;
+    background-color: rgba(197, 189, 189, 0.692);
+    position: relative;
+    bottom: 56rem;
+    margin-left: 45%;
+
+}
+
+.box3 {
+    width: 50%;
+    height: 395px;
+    background-color: rgba(197, 189, 189, 0.692);
+    position: relative;
+    bottom: 56rem;
+    margin-left: 45%;
+    margin-top: 7%;
+
+}
+
+.text14 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 65%;
+    cursor: default;
+
+}
+
+.text15 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.button2 {
+    width: 32%;
+    height: 6%;
+    border-radius: 70px;
+    cursor: pointer;
+    margin-left: 33%;
+    margin-top: 10%;
+    transition: 0.4s;
+    border: none;
+}
+
+.fa-power-off {
+    color: white;
+    position: relative;
+    top: 30%;
+    left: 43%;
+}
+
+.button2:hover {
+    background-color: var(--button-hover);
+    color: white;
+    border: none;
+    transition: 0.4s;
+    font-size: 15px;
+}
+
+.text16 {
+    font-size: 30px;
+    padding-left: 5%;
+    padding-top: 5%;
+
+}
+
+.text17 {
+    font-size: 20px;
+    padding-left: 5%;
+    padding-top: 5%;
+
+
+}
+
+.text18 {
+    font-size: 20px;
+    padding-left: 5%;
+    color: grey;
+    border-left: 5px solid var(--primary-color);
+    position: relative;
+    top: 5%;
+
+}
+
+.text19 {
+    font-size: 20px;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.text20 {
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+ul {
+    padding-left: 7%;
+}
+
+li {
+    padding-top: 3%;
+    font-size: 20px;
+}
+
+.text21 {
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+.box2,
+.box3 {
+    border-radius: 30px;
+}
+
+.box4 {
+    width: 35%;
+    height: 900px;
+    background-color: var(--primary-color);
+    margin-left: 60%;
+    margin-top: -60%;
+    border-radius: 30px;
+
+
+}
+
+.box5 {
+    width: 50%;
+    height: 395px;
+    background-color: rgba(197, 189, 189, 0.692);
+    border-radius: 30px;
+    margin-top: -64%;
+    margin-left: 5%;
+
+}
+
+.box6 {
+    width: 50%;
+    height: 395px;
+    background-color: rgba(197, 189, 189, 0.692);
+    border-radius: 30px;
+    margin-top: 8%;
+    margin-left: 5%;
+
+}
+
+.button3 {
+    width: 32%;
+    height: 6%;
+    border-radius: 70px;
+    cursor: pointer;
+    margin-left: 33%;
+    margin-top: 10%;
+    transition: 0.4s;
+    border: none;
+}
+
+.button3:hover {
+    background-color: var(--button-hover);
+    color: white;
+    border: none;
+    transition: 0.4s;
+    font-size: 15px;
+}
+
+.text22 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 65%;
+    cursor: default;
+
+}
+
+.text23 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.fa-list-alt {
+    color: white;
+    position: relative;
+    top: 30%;
+    left: 43%;
+}
+
+.text24 {
+    font-size: 30px;
+    padding-left: 5%;
+    padding-top: 5%;
+
+}
+
+.text25 {
+    font-size: 20px;
+    padding-left: 5%;
+    padding-top: 5%;
+
+
+}
+
+.text26 {
+    font-size: 20px;
+    padding-left: 5%;
+    color: grey;
+    border-left: 5px solid var(--primary-color);
+    position: relative;
+    top: 5%;
+
+}
+
+.text27 {
+    font-size: 20px;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.text28 {
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.text29 {
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+.box7 {
+    width: 35%;
+    height: 900px;
+    background-color: var(--primary-color);
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 30px;
+
+
+}
+
+.box8 {
+    width: 50%;
+    height: 395px;
+    background-color: rgba(197, 189, 189, 0.692);
+    border-radius: 30px;
+    margin-top: -64%;
+    margin-left: 45%;
+
+}
+
+.box9 {
+    width: 50%;
+    height: 395px;
+    background-color: rgba(197, 189, 189, 0.692);
+    border-radius: 30px;
+    margin-top: 8%;
+    margin-left: 45%;
+
+}
+
+.button4 {
+    width: 32%;
+    height: 6%;
+    border-radius: 70px;
+    cursor: pointer;
+    margin-left: 33%;
+    margin-top: 10%;
+    transition: 0.4s;
+    border: none;
+}
+
+.button4:hover {
+    background-color: var(--button-hover);
+    color: white;
+    border: none;
+    transition: 0.4s;
+    font-size: 15px;
+}
+
+.text30 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 65%;
+    cursor: default;
+
+}
+
+.text31 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.fa-bars {
+    color: white;
+    position: relative;
+    top: 30%;
+    left: 43%;
+}
+
+.text32 {
+    font-size: 30px;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.text33 {
+    font-size: 20px;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.text34 {
+    font-size: 20px;
+    padding-left: 5%;
+    color: grey;
+    border-left: 5px solid var(--primary-color);
+    position: relative;
+    top: 5%;
+}
+
+.text35 {
+    font-size: 20px;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.text36 {
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.text37 {
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+.box10 {
+    width: 100%;
+    height: 250px;
+    background-color: var(--primary-color);
+    text-align: center;
+    color: white;
+    padding: 4%;
+    margin-top: 10%;
+}
+
+.button5 {
+    width: 14%;
+    height: 40%;
+    border-radius: 70px;
+    cursor: pointer;
+    margin-left: 5%;
+    margin-top: 3%;
+    transition: 0.4s;
+    border: none;
+}
+
+.button5:hover {
+    background-color: var(--button-hover);
+    color: white;
+    border: none;
+    transition: 0.4s;
+    font-size: 15px;
+}
+
+h2 {
+    margin-bottom: 2%;
+    font-size: 30px;
+}
+
+.style {
+    margin-top: 10%;
+}
+
+.style2 {
+    margin-bottom: 6%;
+}
+
+.style3 {
+    position: relative;
+    top: 0.6rem;
+    right: 35rem;
+}
+
+.style4 {
+    margin-top: 8%;
+}
+
+.text38 {
+    position: relative;
+    top: -42rem;
+    text-align: center;
+    font-size: 50px;
+}
+
+.text39 {
+    color: gray;
+    position: relative;
+    top: -39rem;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+    font-size: 21px;
+}
+
+.fa-star {
+    position: relative;
+    top: 30%;
+    left: 43%;
+    color: white;
+}
+
+.fa-th-large {
+    color: white;
+    position: relative;
+    top: 30%;
+    left: 43%;
+}
+
+.fa-cog {
+    color: white;
+    position: relative;
+    top: 30%;
+    left: 43%;
+}
+
+.circle1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 70px;
+    background-color: var(--primary-color);
+    color: white;
+    position: relative;
+    bottom: 27.9rem;
+    left: 31rem;
+    cursor: pointer;
+}
+
+.circle2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 70px;
+    background-color: var(--primary-color);
+    color: white;
+    position: relative;
+    bottom: 33.5rem;
+    left: 36rem;
+    cursor: pointer;
+}
+
+.circle3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 70px;
+    background-color: var(--primary-color);
+    color: white;
+    position: relative;
+    bottom: 39rem;
+    left: 41rem;
+    cursor: pointer;
+}
+
+.circle4 {
+    width: 50px;
+    height: 50px;
+    border-radius: 70px;
+    background-color: var(--primary-color);
+    color: white;
+    position: relative;
+    bottom: 44.6rem;
+    left: 46rem;
+    cursor: pointer;
+}
+
+.circle5 {
+    width: 50px;
+    height: 50px;
+    border-radius: 70px;
+    background-color: var(--primary-color);
+    color: white;
+    position: relative;
+    bottom: 50.2rem;
+    left: 51rem;
+    cursor: pointer;
+}
+
+.circle6 {
+    width: 50px;
+    height: 50px;
+    border-radius: 70px;
+    background-color: var(--primary-color);
+    color: white;
+    position: relative;
+    bottom: 55.8rem;
+    left: 56rem;
+    cursor: pointer;
+}
+
+.icon {
+    position: relative;
+    top: 20%;
+    left: 15%;
+}
+
+.sign {
+    width: 5rem;
+    height: 2.5rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 0.7%;
+    font-size: 20px;
+}
+
+.style5 {
+    position: relative;
+    bottom: 34rem;
+    left: 30rem;
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.6s;
+}
+
+.circle1:hover+.sign {
+    background-color: black;
+    transition: 0.6s;
+}
+
+.style6 {
+    position: relative;
+    bottom: 39.6rem;
+    left: 34.9rem;
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.6s;
+}
+
+.circle2:hover+.sign {
+    background-color: black;
+    transition: 0.6s;
+}
+
+.style7 {
+    position: relative;
+    bottom: 45rem;
+    left: 40rem;
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.6s;
+}
+
+.circle3:hover+.sign {
+    background-color: black;
+    transition: 0.6s;
+}
+
+.style8 {
+    position: relative;
+    bottom: 50.5rem;
+    left: 45rem;
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.6s;
+}
+
+.circle4:hover+.sign {
+    background-color: black;
+    transition: 0.6s;
+}
+
+.style9 {
+    position: relative;
+    bottom: 56rem;
+    left: 50.2rem;
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.6s;
+}
+
+.circle5:hover+.sign {
+    background-color: black;
+    transition: 0.6s;
+}
+
+.style10 {
+    position: relative;
+    bottom: 61.5rem;
+    left: 55rem;
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.6s;
+}
+
+.circle6:hover+.sign {
+    background-color: black;
+    transition: 0.6s;
+}
+
+.text40 {
+    color: var(--primary-color);
+    text-align: center;
+    cursor: pointer;
+}
+
+.style11 {
+    position: relative;
+    bottom: 50rem;
+    padding: 50px 20px;
+    font-size: 20px;
+    width: 100%;
+    height: 50px;
+}
+
+.text41 {
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.text42 {
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.text43 {
+    color: var(--primary-color);
+    cursor: pointer;
+    text-align: center;
+
+}
+
+
+
+.text-end-of-page {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    bottom: 40rem;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.a-end-of-page {
+    padding: 0 10px;
+    text-decoration: none;
+    color: var(--primary-color);
+    border-right: 2px solid black;
+}
+
+.style12 {
+    border: none;
+}
+
+.style13 {
+    position: relative;
+    bottom: 45rem;
+}
+
+.line4 {
+    background-color: black;
+    width: 80px;
+    height: 1px;
+    position: relative;
+    left: 41%;
+    top: -51rem;
+}
+
+.line5 {
+    background-color: black;
+    width: 80px;
+    height: 1px;
+    position: relative;
+    left: 52%;
+    top: -51rem;
+
+}
+
+@media (max-width:700px){
+    .top-of-page{
+        height: 2rem;
+    }
+    .top-of-page2{
+        height: 11rem;
+    }
+
+    .icon-box1{
+     margin-left: -4rem;
+    }
+
+    .line1{
+        position: relative;
+        left: 25.7rem;
+    }
+    .line2{
+        position: relative;
+        left: 27.9rem;
+    }
+
+    .text1{
+        margin-right: 14rem;
+        padding-top: 0.4rem;
+    }
+
+    .logo{
+        width: 100%;
+        position: relative;
+        bottom: 3rem;
+    }
+    
+    .a-top-of-page{
+        font-size: 13px;
+        position: relative;
+        left: 0rem;
+        bottom: 7rem;
+        padding-bottom: 4rem;
+    }
+    .button1{
+    position: relative;
+    left: 0.5rem;
+    bottom: 6.6rem;
+    width: 7rem;
+    height: 3rem;
+    }
+    .search{
+        position: relative;
+        left: 1rem;
+        bottom: 6.4rem;
+    }
+    h1{
+        font-size: 5rem;
+        padding-top: 1rem;
+    }
+
+}
